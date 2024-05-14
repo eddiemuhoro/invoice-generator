@@ -1,0 +1,108 @@
+/* InvoiceGenerator.css */
+
+.invoice-container {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f8f8f8;
+  }
+  
+  .bill-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .bill-to,
+  .bill-from {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    border-radius: 8px;
+  }
+  
+  .label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .input-field {
+    width: 90%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  .items-section {
+    margin-bottom: 30px;
+  }
+  
+  .item {
+    display: grid;
+    grid-template-columns: 2fr 3fr 1fr;
+    grid-gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* input[type="text"],
+  input[type="number"] {
+    width: 90%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin:  3px;
+  } */
+  
+  .add-item-button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .add-item-button:hover {
+    background-color: #2980b9;
+  }
+  
+  .total-section {
+    text-align: right;
+    margin-bottom: 20px;
+  }
+  
+  .total-section p {
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  .download-button {
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .download-button:hover {
+    background-color: #219653;
+  }
+  
